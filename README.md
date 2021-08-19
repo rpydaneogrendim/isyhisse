@@ -1,21 +1,10 @@
----
-output: github_document
----
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
-
-# isyhisse
+isyhisse
+====
 
 isyhisse paketi, Is Yatirim'in web sitesinden hisse fiyatlarini cekmenizi saglar.
 
-## Paket Yukleme
+Paket Yukleme
+-------------
 
 Paketi asagidaki kod ile yukleyebilirsiniz.
 
@@ -24,7 +13,8 @@ devtools::install_github("rpydaneogrendim/isyhisse")
 library(isyhisse)
 ```
 
-## Fonksiyon ve Ornek
+Fonksiyon ve Ornek
+---------------------
 
 ```{r function, eval=F}
 
